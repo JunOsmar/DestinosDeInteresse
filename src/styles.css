@@ -1,0 +1,54 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url(/img/peakpx.jpg);
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.titulo {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.botao {
+  background: transparent;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  border: solid;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form {
+  width: 40%;
+  border: solid;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.label {
+  padding: 10px;
+}
+
+.input {
+  height: 38.5px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  color: black;
+}
